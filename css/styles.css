@@ -1,0 +1,53 @@
+body {
+  background-color: oldlace;
+  font-family: "Lato", sans-serif;
+  color: #2d3c49;
+  font-weight: 300;
+}
+
+/* Increase header h3 font-weight */
+
+header h3 {
+  font-weight: 700;
+}
+
+/* Featured works title */
+
+.featuredwork {
+  color: #7d97ad;
+  font-weight: bold;
+  /*font-size: 40px;*/
+}
+
+.title, header h1 {
+  font-weight: 100;
+}
+
+/* Increase font size of authors name */
+
+.super-text {
+  font-size: 60px;
+}
+
+/* Udacity logo in top left corner */
+
+.udacityimage {
+  margin-top: 20px;
+}
+
+/* Horizontal rule */
+
+hr {
+  height: 3px;
+  border: none;
+  color: #7d97ad;
+  background-color: #7d97ad;
+}
+
+/* Increase font weight for featured work tile titles */
+
+.fw {
+  font-weight: bold;
+  color: #2d3c49;
+  font-size: 30px;
+}

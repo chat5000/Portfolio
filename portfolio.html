@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <!-- Display properly in IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Display properly/loading on mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Portfolio</title>
+
+    <!-- Bootstrap template -->
+    <!--<link rel="stylesheet" href="css/bootstrap.css">-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- JQuery links-->
+    <!--<script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <!--<script src="js/jquery-3.2.1.min.js"></script>-->
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300"
+      rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Lato"
+    rel="stylesheet"> -->
+
+    <!--normalize GitHub Google css -->
+    <link
+      rel="stylesheet"
+      src="//normalize-css.google.com/svn/trunk/normalize.css">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <header>
+          <div class="col-md-6">
+            <!-- Place holder for Udacity Image -->
+            <img
+              class="udacityimage img-responsive img-circle"
+              src="images/udacity.png"
+              width="100"
+              height="100"
+              alt="Responsive image">
+          </div>
+
+          <!-- Title/Subtitle -->
+          <div class="col-md-6 text-right text-uppercase">
+            <h1 class="super-text title">P.C. CHATMAN</h1>
+            <h3>Front-End Ninja</h3>
+          </div>
+        </header>
+      </div>
+
+      <!--first dividing line-->
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <img
+            srcset="images/Udacitylogodesign.jpg"
+            width="1140"
+            heigth="350"
+            class="img-responsive"
+            alt="Responsive image">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="featuredwork">Featured Work</h2>
+        </div>
+      </div>
+
+      <!--Second dividing line-->
+      <div class="row">
+        <div class="col-md-12 second">
+          <hr>
+        </div>
+      </div>
+
+      <!-- Featured Work tiles -->
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img
+            src="images/moviecollection.jpg"
+            width="555"
+            height="300"
+            class="img-responsive img-circle"
+            alt="Responsive image"
+            data-toggle="modal"
+            data-target="#movies">
+          <h3 class="fw">Movie Trailer</h3>
+          <p>
+            <a href="https://github.com/chat5000/MovieTrailer.git">Movie Trailer</a>
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <img
+            src="images/sketchbook.jpg"
+            width="555"
+            height="300"
+            class="img-responsive"
+            alt="Responsive image"
+            data-toggle="modal"
+            data-target="#portfolio">
+          <h3 class="fw">Build a Portfolio</h3>
+          <p>
+            <a href="https://github.com/chat5000/Portfolio.git">Build a Portfolio</a>
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <img
+            src="images/logs.jpg"
+            width="555"
+            height="300"
+            class="img-responsive img-circle"
+            alt="Responsive image"
+            data-toggle="modal"
+            data-target="#logs">
+          <h3 class="fw">Logs Analysis</h3>
+          <p>
+            <a href="http://github.com">Logs Analysis</a>
+          </p>
+        </div>
+
+        <!-- TODO: Placeholder for future projects -->
+        <!-- <div class="col-md-4"> <img src="images/earth.jpg" width="555"
+        height="300" class="img-responsive" alt="Responsive image"
+        data-toggle="modal" data-target="#catalog"> <h3
+        class="fw">ItemsCatalog</h3> <p> <a href="http://github.com">Items
+        Catalog</a> </p> </div> -->
+
+        <footer class="footer">
+        		<div class="container">
+              <div class="col-md-12 text-center">
+        			<hr>
+        			<p class="text-center">Be sure to check out more upcoming projects at  <a href="https://github.com/chat5000">https://github.com/chat5000</a></p>
+        		</div>
+        	</footer>
+
+
+        <!-- Movie Trailer-Modal -->
+        <div
+          class="modal fade"
+          id="movies"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="moviesModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="moviesModal" id="moviesModalLabel">Movie Trailers</h4>
+              </div>
+              <div class="modal-body">
+                <img
+                  class="img-responsive"
+                  src="images/moviecollection.jpg"
+                  alt="Responsive image"
+                  width="555"
+                  height="300">
+                The project was to write server-side code to store a list of my favorite
+                movies, including box art imagery and a movie trailer URL. I then used the
+                code to generate a static web page allowing visitors to browse their movies
+                and watch the trailers.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio-Modal -->
+        <div
+          class="modal fade"
+          id="portfolio"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="portfolioModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="portfolioModal" id="portfolioModalLabel">Build a Portfolio Site</h4>
+              </div>
+              <div class="modal-body">
+                <img
+                  class="img-responsive img-circle"
+                  alt="Responsive image"
+                  src="images/sketchbook.jpg"
+                  width="555"
+                  height="300">
+                For this project, I was provided a PDF-file, and I was able to replicate
+                the design in HTML and CSS. I developed a responsive website that displayed
+                images, descriptions and links to my projects that I will completed at the
+                end of my Full Stack Web Developer’s Nanodegree.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Logs Analysis-Modal -->
+        <div
+          class="modal fade"
+          id="logs"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="logsModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="logsModal" id="logsModalLabel">Logs Analysis</h4>
+              </div>
+              <div class="modal-body">
+                <img
+                  class="img-responsive"
+                  src="images/logs.jpg"
+                  alt="Responsive image"
+                  width="555"
+                  height="300">
+                Please description of project here.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TODO: Placeholder for future project modal -->
+        <!-- Items Catalog-Modal -->
+        <!-- <div class="modal fade" id="catalog" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabel" aria-hidden="true"> <div
+        class="modal-dialog"> <div class="modal-content"> <div
+        class="modal-header"> <h4 class="modal-title" class="myModalLabel">Items
+        Catalog</h4> </div> <div class="modal-body"> <img class="img-responsive"
+        alt="Responsive image" src="images/earth.jpg" width="555" height="300">
+        Please description of project here. </div> <div class="modal-footer">
+        <button type="button" class="btn btn-default"
+        data-dismiss="modal">Close</button> </div> </div> </div> </div> -->
+
+        <!-- JQuery links-->
+        <!--<script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+        <script src="js/jquery-3.2.1.min.js"></script>
+
+        <!-- JScript links-->
+        <script src="js/bootstrap.js"></script>
+
+        <!-- JQuery UI -->
+        <link
+          rel="stylesheet"
+          href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script
+          src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+      </div>
+    </div>
+  </body>
+</html>
